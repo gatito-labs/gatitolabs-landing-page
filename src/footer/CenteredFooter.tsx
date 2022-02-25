@@ -33,9 +33,9 @@ const CenteredFooter = (props: ICenteredFooterProps) => (
           alt="Gatitolabs Logo"
         ></img>
       </div>
-    </div>
-    <div className="mt-8 text-sm">
-      <FooterCopyright />
+      <div className="mt-8 text-sm justify-center">
+        <FooterCopyright />
+      </div>
     </div>
   </>
 );

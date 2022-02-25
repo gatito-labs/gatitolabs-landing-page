@@ -9,7 +9,9 @@ const Logo = (props: ILogoProps) => {
     : 'font-semibold text-xl';
 
   return (
-    <span className={`text-gray-900 inline-flex items-center ${fontStyle}`}>
+    <span
+      className={`text-gray-900 inline-flex items-center ${fontStyle} w-40 sm:w-64`}
+    >
       <img src={props.img} alt="Gatitolabs Logo"></img>
     </span>
   );

@@ -30,10 +30,10 @@ const HorizontalLogos = (props: IVerticalFeatureRowProps) => {
         <div className="mt-6 text-xl leading-9">{props.description}</div>
       </div>
       <div className="w-full sm:px-6 flex flex-wrap content-start center-align items-center justify-center">
-        <div className="w-1/3 p-6">
+        <div className="w-1/2 lg:w-1/3 p-6">
           <img src={`${router.basePath}${props.image1}`} alt={props.imageAlt} />
         </div>
-        <div className="w-1/3 p-6">
+        <div className="w-1/2 lg:w-1/3 p-6">
           <img src={`${router.basePath}${props.image2}`} alt={props.imageAlt} />
         </div>
       </div>
