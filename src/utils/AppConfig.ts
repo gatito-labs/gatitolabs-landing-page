@@ -1,6 +1,6 @@
 export const AppConfig = {
-  site_name: 'Starter',
-  title: 'Nextjs Starter',
-  description: 'Starter code for your Nextjs Boilerplate with Tailwind CSS',
-  locale: 'en',
+  site_name: 'Gatitolabs',
+  title: 'Gatitolabs',
+  description: 'Cursos de programación para escolares',
+  locale: 'es',
 };

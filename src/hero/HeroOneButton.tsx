@@ -12,6 +12,9 @@ const HeroOneButton = (props: IHeroOneButtonProps) => (
       {props.title}
     </h1>
     <div className="text-2xl mt-4 mb-16">{props.description}</div>
+    <div className="w-full p-6">
+      <img src="assets/images/hero.png" alt="Gatitolabs" />
+    </div>
 
     {props.button}
   </header>
