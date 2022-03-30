@@ -33,7 +33,9 @@ const ContactForm = function ContactForm() {
         <h2 className="font-bold tracking-widest text-gray-900 text-4xl mb-4">
           Déjanos tu correo
         </h2>
-        <div className="font-light text-gray-900 text-xl">Te contactaremos</div>
+        <div className="font-light text-gray-900 text-xl">
+          Te avisaremos la fecha de lanzamiento
+        </div>
         <form className="w-full max-w-lg my-20 mx-auto" onSubmit={registerUser}>
           <div className="flex items-center border-b border-blue-600 py-2">
             <input

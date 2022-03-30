@@ -13,11 +13,11 @@ const Hero = () => (
       <NavbarTwoColumns logo={<Logo img="assets/images/logo.svg" />}>
         <li>
           <Link href="/#contact">
-            <a>Demo</a>
+            <a>Inscríbete</a>
           </Link>
         </li>
         <li>
-          <Link href="https://test.gatitolabs.cl">
+          <Link href="https://taller.gatitolabs.cl">
             <a>Ingresar</a>
           </Link>
         </li>
@@ -36,7 +36,7 @@ const Hero = () => (
         button={
           <Link href="/#contact">
             <a>
-              <Button xl>Demo gratis</Button>
+              <Button xl>Me interesa</Button>
             </a>
           </Link>
         }
