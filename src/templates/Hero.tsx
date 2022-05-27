@@ -12,13 +12,8 @@ const Hero = () => (
     <Section yPadding="py-6">
       <NavbarTwoColumns logo={<Logo img="assets/images/logo.svg" />}>
         <li>
-          <Link href="/#contact">
-            <a>Inscríbete</a>
-          </Link>
-        </li>
-        <li>
           <Link href="https://taller.gatitolabs.cl">
-            <a>Ingresar</a>
+            <a>Inscríbete</a>
           </Link>
         </li>
       </NavbarTwoColumns>
@@ -34,7 +29,7 @@ const Hero = () => (
         }
         description="Taller de robótica en un entorno virtual. Accede desde tu casa."
         button={
-          <Link href="/#contact">
+          <Link href="/#pricing">
             <a>
               <Button xl>Me interesa</Button>
             </a>

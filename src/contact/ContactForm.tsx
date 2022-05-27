@@ -10,7 +10,7 @@ const ContactForm = function ContactForm() {
     setIsLoading(true);
     const res = await fetch('https://api.staticforms.xyz/submit', {
       body: JSON.stringify({
-        accessKey: event.target.accessKey.value,
+        accessKey: '800bc69c-c1d4-493d-958d-b0ddf2cce17e',
         email: event.target.email.value,
       }),
       headers: {
@@ -31,17 +31,17 @@ const ContactForm = function ContactForm() {
     >
       <div className="self-center text-center w-full xl:w-1/3 px-4 sm:px:0 mt-40">
         <h2 className="font-bold tracking-widest text-gray-900 text-4xl mb-4">
-          Déjanos tu correo
+          ¿Quieres usar Gatitolabs en tus clases o colegio?
         </h2>
         <div className="font-light text-gray-900 text-xl">
-          Te avisaremos la fecha de lanzamiento
+          Déjanos tu correo y hablemos
         </div>
         <form className="w-full max-w-lg my-20 mx-auto" onSubmit={registerUser}>
           <div className="flex items-center border-b border-blue-600 py-2">
             <input
               type="hidden"
               name="accessKey"
-              value="658ead41-b1a7-4219-a124-e0716e99f580"
+              value="800bc69c-c1d4-493d-958d-b0ddf2cce17e"
             />
             <input
               className="appearance-none  border text-gray-900 w-full focus:outline-none focus:bg-gray-400 focus:text-gray-800 focus:border-gray-400 mr-3 py-2 px-3"
