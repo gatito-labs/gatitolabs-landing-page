@@ -6,7 +6,6 @@ import { Contact } from './Contact';
 import { Footer } from './Footer';
 import { Hero } from './Hero';
 import { HorizontalSponsors } from './HorizontalSponsors';
-import { Pricing } from './Pricing';
 import { VerticalFeatures } from './VerticalFeatures';
 
 const Base = () => (
@@ -15,7 +14,6 @@ const Base = () => (
     <Hero />
     <HorizontalSponsors />
     <VerticalFeatures />
-    <Pricing />
     <Contact />
     <Footer />
   </div>
