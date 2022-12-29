@@ -115,6 +115,7 @@ Open http://localhost:3000 with your favorite browser to see your project. For y
 ├── tailwind.config.js   # Tailwind CSS configuration
 └── tsconfig.json        # TypeScript configuration
 ```
+m
 
 ### Customization
 
